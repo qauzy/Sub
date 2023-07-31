@@ -1,0 +1,802 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+- alterId: 64
+  cipher: auto
+  name: 中国 01
+  network: ws
+  port: 443
+  server: 142.4.112.157
+  servername: www.67023582.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1689402073093
+- alterId: 0
+  cipher: auto
+  name: 加拿大 01
+  network: ws
+  port: 443
+  server: dongtaiwang2.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f
+  ws-opts:
+    headers:
+      Host: 2.freek1.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 02
+  network: ws
+  port: 8080
+  server: 198.41.197.118
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 哥斯达黎加 01
+  network: ws
+  port: 8080
+  server: cf3.992688.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0ea60ebb-632d-4226-893a-cccc2053dbf5
+  ws-opts:
+    headers:
+      Host: haxus3.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 01
+  network: ws
+  port: 8080
+  server: cf1.992688.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d3ded505-f89d-4070-dafa-8288ffbabd32
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 02
+  network: ws
+  port: 8080
+  server: ns1.v2-vip.fun
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44c48fbe-cfbf-40ee-b0e4-12a1cec4da69
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 美国 03
+  network: ws
+  port: 8080
+  server: speedip.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44c48fbe-cfbf-40ee-b0e4-12a1cec4da69
+  ws-opts:
+    headers:
+      Host: ssrsub.v01.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 美国 04
+  network: ws
+  port: 80
+  server: mrb.shabijichang.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f0570f9c-d688-4bc0-ab35-0b18de2c115f
+  ws-opts:
+    headers:
+      Host: mrb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 05
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  ws-opts:
+    headers:
+      Host: ddp2.1808.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 06
+  network: ws
+  port: 2082
+  server: 104.24.242.157
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 07
+  network: ws
+  port: 443
+  server: dongtaiwang3.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 美国 08
+  network: ws
+  port: 2095
+  server: 172.64.106.104
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+  ws-opts:
+    headers:
+      Host: amszx.66666654.xyz
+    path: /hgcefomn
+- alterId: 0
+  cipher: auto
+  name: 美国 09
+  network: ws
+  port: 80
+  server: ylsl.shabijichang.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f0570f9c-d688-4bc0-ab35-0b18de2c115f
+  ws-opts:
+    headers:
+      Host: ylsl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 10
+  network: ws
+  port: 8880
+  server: cdn.narutos.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      Host: eu.jh.yj2022.gq
+    path: /RpT6kZjkw45EenmTcDYWs
+- alterId: 0
+  cipher: auto
+  name: 美国 11
+  network: ws
+  port: 443
+  server: bobbykotick.rip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: Lille.bobbykotick.rip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 12
+  network: ws
+  port: 2082
+  server: 104.31.16.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ca5.tehme100.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 美国 13
+  network: ws
+  port: 8080
+  server: cf2.992688.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0ea60ebb-632d-4226-893a-cccc2053dbf5
+  ws-opts:
+    headers:
+      Host: haxus3.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 14
+  network: ws
+  port: 8080
+  server: 104.24.181.242
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 20670d72-d0ab-469e-81f4-1564f03955b0
+  ws-opts:
+    headers:
+      Host: uxx.vtcss.top
+    path: /qwer
+- alterId: 0
+  cipher: auto
+  name: 美国 15
+  network: ws
+  port: 2086
+  server: Shopify.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  ws-opts:
+    headers:
+      Host: Fr.cloudflare.quest
+    path: /aries
+- alterId: 0
+  cipher: auto
+  name: 美国 16
+  network: ws
+  port: 443
+  server: vus5.0bad.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vus5.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 美国 17
+  network: ws
+  port: 8080
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 44c48fbe-cfbf-40ee-b0e4-12a1cec4da69
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 美国 18
+  network: ws
+  port: 8443
+  server: 172.67.184.53
+  servername: cloudconebbb.gorgorchicken.one
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  ws-opts:
+    headers:
+      Host: cloudconebbb.gorgorchicken.one
+    path: /cloudconebbb
+- alterId: 0
+  cipher: auto
+  name: 美国 19
+  network: ws
+  port: 443
+  server: cloudflare.piaole.me
+  servername: cloudflare.piaole.me
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9e2c433a-6917-4190-9d28-4877825685e4
+  ws-opts:
+    headers:
+      Host: cloudflare.piaole.me
+    path: /huawei
+- alterId: 0
+  cipher: auto
+  name: 美国 20
+  network: ws
+  port: 443
+  server: dallas.starsea.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 10735fe6-6c8f-498b-b22e-8e98a57e033d
+  ws-opts:
+    headers:
+      Host: dallas.starsea.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 21
+  network: ws
+  port: 8080
+  server: 104.25.157.85
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 22
+  network: ws
+  port: 2082
+  server: 108.162.196.108
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+- alterId: 64
+  cipher: auto
+  name: 美国 23
+  network: ws
+  port: 443
+  server: 140.99.120.173
+  servername: www.22716613.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1690282577532
+- alterId: 0
+  cipher: auto
+  name: 美国 24
+  network: ws
+  port: 443
+  server: kok.kapacloud.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e55d54c2-b727-4288-bab2-6dc085e2ee43
+  ws-opts:
+    headers:
+      Host: kok.kapacloud.eu.org
+    path: /blue
+- alterId: 64
+  cipher: auto
+  name: 美国 25
+  network: ws
+  port: 443
+  server: 198.2.204.249
+  servername: www.11141292.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1689157081858
+- alterId: 0
+  cipher: auto
+  name: 美国 26
+  network: ws
+  port: 8880
+  server: 104.17.185.81
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 27
+  network: ws
+  port: 8080
+  server: 104.22.10.236
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 28
+  network: ws
+  port: 8880
+  server: 104.22.20.108
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 美国 29
+  network: ws
+  port: 8880
+  server: 104.24.77.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 64
+  cipher: auto
+  name: 美国 30
+  network: ws
+  port: 443
+  server: 45.12.144.93
+  servername: www.11232252.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1688813258218
+- alterId: 0
+  cipher: auto
+  name: 荷兰 01
+  network: ws
+  port: 8880
+  server: 188.114.97.96
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 荷兰 02
+  network: ws
+  port: 8880
+  server: 188.114.97.90
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /qwer01
+- alterId: 0
+  cipher: auto
+  name: 香港 01
+  network: ws
+  port: 80
+  server: 154.92.9.41
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - LOAD-BALANCE
+  - FALLBACK
+  - URL-TEST
+  - SELECT
+- name: DEBUG
+  type: select
+  proxies:
+  - LOAD-BALANCE
+  - FALLBACK
+  - URL-TEST
+  - SELECT
+- name: SELECT
+  type: select
+  url: http://www.v2ex.com/generate_204
+  interval: 300
+  proxies: &id001
+  - 中国 01
+  - 加拿大 01
+  - 加拿大 02
+  - 哥斯达黎加 01
+  - 美国 01
+  - 美国 02
+  - 美国 03
+  - 美国 04
+  - 美国 05
+  - 美国 06
+  - 美国 07
+  - 美国 08
+  - 美国 09
+  - 美国 10
+  - 美国 11
+  - 美国 12
+  - 美国 13
+  - 美国 14
+  - 美国 15
+  - 美国 16
+  - 美国 17
+  - 美国 18
+  - 美国 19
+  - 美国 20
+  - 美国 21
+  - 美国 22
+  - 美国 23
+  - 美国 24
+  - 美国 25
+  - 美国 26
+  - 美国 27
+  - 美国 28
+  - 美国 29
+  - 美国 30
+  - 荷兰 01
+  - 荷兰 02
+  - 香港 01
+- name: URL-TEST
+  type: url-test
+  url: http://www.v2ex.com/generate_204
+  interval: 300
+  proxies: *id001
+- name: FALLBACK
+  type: fallback
+  url: http://www.v2ex.com/generate_204
+  interval: 300
+  proxies: *id001
+- name: LOAD-BALANCE
+  type: load-balance
+  url: http://www.v2ex.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies: *id001
+rules:
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,direct-classical,DIRECT
+  - RULE-SET,proxy-classical,PROXY
+  - RULE-SET,reject-classical,REJECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,advertising,REJECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,DIRECT
+  - RULE-SET,proxy,PROXY
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,telegramcidr,PROXY
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./ruleset/greatfire.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+    
+  advertising:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Classical.yaml"
+    path: ./ruleset/Advertising_Classical.yaml
+    interval: 86400
+
+  direct-classical:
+    type: http
+    behavior: classical
+    url: "https://anaer.github.io/Sub/rules/direct-classical-provider.yaml"
+    path: ./rules/direct-classical-provider.yaml
+    interval: 86400
+  proxy-classical:
+    type: http
+    behavior: classical
+    url: "https://anaer.github.io/Sub/rules/proxy-classical-provider.yaml"
+    path: ./rules/proxy-classical-provider.yaml
+    interval: 86400
+  reject-classical:
+    type: http
+    behavior: classical
+    url: "https://anaer.github.io/Sub/rules/reject-classical-provider.yaml"
+    path: ./rules/reject-classical-provider.yaml
+    interval: 86400
+
+script:
+  code: |
+    def main(ctx, metadata):
+      # 规则列表定义(规则名:代理规则), 便于调整处理顺序
+      ruleList = {
+        "direct-classical":"DIRECT",
+        "proxy-classical":"DEBUG",
+        "reject-classical":"REJECT",
+        "advertising":"REJECT",
+        "reject":"REJECT",
+        "proxy":"PROXY",
+        "telegramcidr":"PROXY",
+        "applications":"DIRECT",
+        "private":"DIRECT",
+        "icloud":"DIRECT",
+        "apple":"DIRECT",
+        "google":"DIRECT",
+        "direct":"DIRECT",
+        "lancidr":"DIRECT",
+        "cncidr":"DIRECT"
+      }
+
+      # 解析host->ip赋值到metadata中 用于后续判断
+      ip = ctx.resolve_ip(metadata["host"])
+      if ip == "":
+        return "DIRECT"
+
+      metadata["dst_ip"] = ip
+
+      # 遍历规则策略, 有命中即返回
+      for rule,policy in ruleList.items():
+        if ctx.rule_providers[rule].match(metadata):
+          ctx.log("[match] {host} matched rule [{rule}] use {policy}".format(host=metadata["host"],rule=rule,policy=policy))
+          return policy
+
+      # 判断ip是否局域网以及中国, 是则直连
+      code = ctx.geoip(ip)
+      # ctx.log('[geoip] {host} {ip} {code}'.format(host=metadata["host"],ip=ip,code=code))
+      if code == "LAN" or code == "CN":
+        return "DIRECT"
+
+      # 漏网之鱼走代理
+      return "PROXY"
